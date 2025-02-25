@@ -1,0 +1,7 @@
+@TASKMANAGER ENABLE
+
+Start App From Path "bitdefender"
+Start App From Folder "C:\Users\ThisUser\my_programs\Bitdenfender AV.exe"
+
+Create File "{current-time}.txt" with text "I have been on my computer for {taskmanager-runtime}"
+Create File "{current-time}.log" with text "It is currently {time}\nMy username is {user}"
